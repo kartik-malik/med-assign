@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 // mongoose.connect('mongodb://localhost:27017/myapp',function(){
 //     console.log("Connected");
 // })
-mongoose.connect("mongodb+srv://kartik:kartik1234@cluster0.fbbes.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://kartik:k@cluster0.fbbes.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
     useNewUrlParser:true,
   useUnifiedTopology:true,
 })
